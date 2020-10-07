@@ -12,3 +12,4 @@ RUN locale-gen "en_US.UTF-8"
 RUN git config --global user.name "RaySafe Builder"
 RUN git config --global user.email "noreply@raysafe.com"
 RUN git config --global color.ui false
+WORKDIR /root/poky
